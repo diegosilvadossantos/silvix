@@ -8,8 +8,8 @@
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
-    --laranja: #ff00ff;
-    --azul-degrade: linear-gradient(97.54deg, #ff0000 35.49%, #0095ff 165.37%);
+    --laranja: #ff0000;
+    --azul-degrade: linear-gradient(97.54deg, hwb(298 0% 0%) 35.49%, #0095ff 165.37%);
     --fonte-principal: "Poppins";
     --azul: #09ff00;
 }
@@ -21,7 +21,7 @@ body {
     font-weight: 400;
 }root {
     --text-color: #DBE4EF;
-    --card-front-color: #144480;
+    --card-front-color: #000000;
     --card-back-color: #00F4BF;
 }
 
@@ -110,7 +110,7 @@ body {
 
 
 footer {
-    background-color: black;
+    background-color: rgba(232, 145, 235, 0.801);
     color: white;
     position: fixed;
     bottom: 0;
